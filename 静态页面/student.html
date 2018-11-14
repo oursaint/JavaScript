@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>学号</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id="CountMsg" class="HotDate">
+	<span id="t">学习结束倒计时：</span>
+	<span id="t_d">00天</span>
+	<span id="t_h">00时</span>
+	<span id="t_m">00分</span>
+	<span id="t_s">00秒</span>
+</div>
+<script type="text/javascript">
+function getRTime(){
+var EndTime= new Date('2018/11/16 12:00:00'); //截止时间
+var NowTime = new Date();
+var t =EndTime.getTime() - NowTime.getTime();
+/*var d=Math.floor(t/1000/60/60/24);
+t-=d*(1000*60*60*24);
+var h=Math.floor(t/1000/60/60);
+t-=h*60*60*1000;
+var m=Math.floor(t/1000/60);
+t-=m*60*1000;
+var s=Math.floor(t/1000);*/
+  
+var d=Math.floor(t/1000/60/60/24);
+var h=Math.floor(t/1000/60/60%24);
+var m=Math.floor(t/1000/60%60);
+var s=Math.floor(t/1000%60);
+  
+document.getElementById("t_d").innerHTML = d + "天";
+document.getElementById("t_h").innerHTML = h + "时";
+document.getElementById("t_m").innerHTML = m + "分";
+document.getElementById("t_s").innerHTML = s + "秒";
+}
+setInterval(getRTime,1000);
+</script>
+<div class="bg"> 
+	<h1>前 端 13 期 同 学 学 号</h1><br/><br/>
+	<h2>勤 学 奋 进，扬 帆 起 航</h2>
+    <br/>
+    <br/>
+    
+<table border="1" cellpadding="0" cellspacing="0" width="500" height="150" align="center" bgcolor="#66CDAA">
+	<!-- <caption></caption>表格标题 -->
+	<tr bgcolor="#FF4500">
+			<th>学生姓名</th>
+			<th>学号</th>
+			<th>职位</th>
+	</tr>
+	<tr>
+			<td>姚晨</td>
+			<td>A180900186</td>
+			<td rowspan="4"></td>
+
+	</tr>
+	<tr>
+			<td>李瑞</td>
+			<td>A180900577</td>
+			<td></td>
+	</tr>
+	<tr>
+			<td>惠甜</td>
+			<td>A180900575</td>
+			<td></td>
+	</tr>
+	<tr>
+			<td>张凡</td>
+			<td>A180901277</td>
+			<td></td>
+	</tr>
+	<tr>
+			<td>王利</td>
+			<td>A180901776</td>
+	</tr>
+	<tr>
+			<td>罗哲</td>
+			<td>A180901418</td>
+	</tr>
+	<tr>
+			<td>石非帆</td>
+			<td>A180902344</td>
+	</tr>
+	<tr>
+			<td>王昊东</td>
+			<td>A180803654</td>
+	</tr>
+	<tr>
+			<td>魏玉杰</td>
+			<td>A180902435</td>
+	</tr>
+	<tr>
+			<td>郑东艳</td>
+			<td>A180902488</td>
+	</tr>
+	<tr>
+			<td>王晗</td>
+			<td>A180902710</td>
+	</tr>
+	<tr>
+			<td>李海涛</td>
+			<td>A180902727</td>
+	</tr>
+	<tr>
+			<td>苏苗苗</td>
+			<td>A180903045</td>
+	</tr>
+	<tr>
+			<td>宁婷婷</td>
+			<td>A180903426</td>
+	</tr>
+	<tr>
+			<td>宁丽娜</td>
+			<td>A180903427</td>
+	</tr>
+	<tr>
+			<td>王少波</td>
+			<td>A180903513</td>
+	</tr>
+	<tr>
+			<td>孙香丽</td>
+			<td>A180903801</td>
+	</tr>
+    <tr>
+			<td>魏佳辉</td>
+			<td>A180904217</td>
+	</tr>
+	<tr>
+			<td>王圣磊</td>
+			<td>A180902795</td>
+	</tr>
+	<tr>
+			<td>周嘉伟</td>
+			<td>A180904294</td>
+	</tr>
+    <tr>
+			<td>李园</td>
+			<td>A181000426</td>
+	</tr>
+	<tr>
+			<td>张进</td>
+			<td>A181000467</td>
+	</tr>
+	<tr>
+			<td>史小敏</td>
+			<td>A181003619</td>
+	</tr>
+	<tr bgcolor="＃27408B">
+			<td>田剑</td>
+			<td>A180901665</td>
+	<th>班长</th>
+	</tr>
+	<tr>
+			<td>张康</td>
+			<td>A181003176</td>
+	</tr>
+	<tr>
+			<td>杨周</td>
+			<td>A181003255</td>
+	</tr>
+	<tr>
+			<td>田知</td>
+			<td>A181003189</td>
+	</tr>
+	<tr>
+			<td>屠菊</td>
+			<td>A180801541</td>
+	</tr>
+	<tr>
+			<td>李路敏</td>
+			<td>A181000736</td>
+	</tr>
+	<tr>
+			<td>张帅帅</td>
+			<td>A181000739</td>
+	</tr>
+	<tr>
+			<td>胡志尚</td>
+			<td>A181001370</td>
+	</tr>
+	<tr>
+			<td>王璇</td>
+			<td>A181001127</td>
+	</tr>
+	<tr>
+			<td>安军花</td>
+			<td>A181001441</td>
+	</tr>
+	<tr>
+			<td>赫霞</td>
+			<td>A181001443</td>
+	</tr>
+	<tr>
+			<td>常梦瑶</td>
+			<td>A181001442</td>
+	</tr>
+
+	<tr>
+			<td>邵光皓</td>
+			<td>A181001455</td>
+	</tr>
+	<tr>
+			<td>赵青柏</td>
+			<td>A181001673</td>
+	</tr>
+	<tr>
+			<td>付转柔</td>
+			<td>A181001724</td>
+	</tr>
+	<tr>
+			<td>王威</td>
+			<td>A181001733</td>
+	</tr>
+	<tr>
+			<td>武辽</td>
+			<td>A181001751</td>
+	</tr>
+	<tr>
+			<td>魏晓丽</td>
+			<td>A181001811</td>
+	</tr>
+	<tr>
+			<td>吕朋贝</td>
+			<td>A181001129</td>
+	</tr>
+
+	<tr>
+			<td>王欢</td>
+			<td>A181001950</td>
+	</tr>
+	<tr>
+			<td>宫浩钟</td>
+			<td>A181002009</td>
+	</tr>
+	<tr bgcolor="#B03060">
+			<td>王宁</td>
+			<td>A181002023</td>
+			<td>副班长</td>
+	</tr>
+    <tr>
+			<td>李钟浩</td>
+			<td>A181002019</td>
+	</tr>
+	<tr>
+			<td>郭敏</td>
+			<td>A181002108</td>
+	</tr>
+	<tr>
+			<td>周泽名</td>
+			<td>A181002363</td>
+	</tr>
+	<tr>
+			<td>刘博一</td>
+			<td>A181002626</td>
+	</tr>
+
+</table>
+</div>
+
+</body>
+</html>
+
